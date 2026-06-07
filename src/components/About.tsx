@@ -35,10 +35,10 @@ export default function About() {
               ideas that make them work.
             </p>
             <p>
-              Outside of class I'm a member of SJSU's Product Management Club,
-              and I build side projects to learn by doing. I'm currently looking
-              for internship opportunities where I can keep growing as an
-              engineer.
+              Outside of class I stay busy across campus — from product and
+              research roles to outreach with several SJSU organizations — and I
+              build side projects to learn by doing. I'm currently looking for
+              internship opportunities where I can keep growing as an engineer.
             </p>
           </div>
         </div>

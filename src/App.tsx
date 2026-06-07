@@ -7,6 +7,8 @@ import Experience from "./components/Experience";
 import GitHubActivity from "./components/GitHubActivity";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import Certifications from "./components/Certifications";
+import Volunteering from "./components/Volunteering";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -49,6 +51,8 @@ export default function App() {
         </section>
         <Projects />
         <Education />
+        <Certifications />
+        <Volunteering />
         <Contact />
       </main>
       <Footer />

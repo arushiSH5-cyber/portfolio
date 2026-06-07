@@ -37,9 +37,9 @@ export default function Hero() {
             style={{ animationDelay: "0.2s", animationFillMode: "both" }}
           >
             Computer Science &amp; Mathematics student at San José State
-            University and a member of the SJSU Product Management Club. I love
-            turning ideas into software and digging into the math behind it.
-            Currently open to internship opportunities.
+            University, active across several SJSU organizations. I love turning
+            ideas into software and digging into the math behind it. Currently
+            open to internship opportunities.
           </p>
 
           <div
