@@ -15,7 +15,7 @@ export default function Education() {
     <section id="education" className="section-padding">
       <div className="container">
         <div className="max-w-3xl mb-12">
-          <p className="text-sm font-mono text-primary mb-2">06. Education</p>
+          <p className="text-sm font-mono text-primary mb-2">07. Education</p>
           <h2 className="text-3xl md:text-4xl font-bold">Where I studied.</h2>
         </div>
 

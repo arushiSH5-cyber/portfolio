@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact" className="section-padding bg-secondary/30">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-sm font-mono text-primary mb-2">09. Contact</p>
+          <p className="text-sm font-mono text-primary mb-2">10. Contact</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Let's <span className="text-gradient">build something</span>.
           </h2>

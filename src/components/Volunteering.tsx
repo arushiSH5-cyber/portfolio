@@ -18,7 +18,7 @@ export default function Volunteering() {
     <section id="volunteering" className="section-padding">
       <div className="container">
         <div className="max-w-3xl mb-12">
-          <p className="text-sm font-mono text-primary mb-2">08. Volunteering</p>
+          <p className="text-sm font-mono text-primary mb-2">09. Volunteering</p>
           <h2 className="text-3xl md:text-4xl font-bold">Giving back.</h2>
         </div>
 

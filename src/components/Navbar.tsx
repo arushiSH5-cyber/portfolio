@@ -6,6 +6,7 @@ const NAV_ITEMS = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
+  { label: "Leadership", href: "#leadership" },
   { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
@@ -36,7 +37,7 @@ export default function Navbar({ theme, onToggleTheme }: Props) {
     >
       <div className="container flex items-center justify-between h-16">
         <a href="#hero" className="font-bold text-lg tracking-tight">
-          <span className="text-gradient">AN.</span>
+          <span className="text-gradient">Arushi Nirmal</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-1">

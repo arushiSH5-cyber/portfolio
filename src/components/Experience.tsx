@@ -11,16 +11,8 @@ const EXPERIENCE: Org[] = [
     roles: [{ role: "Outreach Coordinator", period: "Jun 2026 – Present" }],
   },
   {
-    org: "IISE SJSU Chapter 806",
-    roles: [{ role: "Events Coordinator", period: "May 2026 – Present" }],
-  },
-  {
-    org: "Braven",
-    roles: [{ role: "Outreach Officer", period: "May 2026 – Present" }],
-  },
-  {
-    org: "SJSU Science Extravaganza",
-    roles: [{ role: "Outreach Officer", period: "May 2026 – Present" }],
+    org: "Adobe Digital Experience Accelerator Series",
+    roles: [{ role: "Participant", period: "2025 – Present" }],
   },
   {
     org: "San José State University",
@@ -40,10 +32,6 @@ const EXPERIENCE: Org[] = [
         period: "Oct 2025 – Present",
       },
     ],
-  },
-  {
-    org: "SJSU Sikh Student Association",
-    roles: [{ role: "Outreach Officer", period: "Aug 2025 – Dec 2025" }],
   },
   {
     org: "Hacker Dojo",

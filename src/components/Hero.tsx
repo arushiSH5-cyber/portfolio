@@ -1,6 +1,9 @@
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { useState } from "react";
+import { ArrowDown, Github, Linkedin, Mail, UserCircle } from "lucide-react";
 
 export default function Hero() {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <section
       id="hero"
@@ -17,7 +20,8 @@ export default function Hero() {
       />
 
       <div className="container relative z-10 py-32">
-        <div className="max-w-3xl">
+        <div className="flex flex-col md:flex-row items-center gap-12">
+        <div className="max-w-2xl flex-1">
           <p className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-secondary text-secondary-foreground mb-6 animate-fade-in">
             <span className="h-2 w-2 rounded-full bg-success animate-pulse" />
             Open to internships
@@ -76,6 +80,28 @@ export default function Hero() {
               ))}
             </div>
           </div>
+        </div>
+
+        <div
+          className="flex-shrink-0 animate-fade-in"
+          style={{ animationDelay: "0.4s", animationFillMode: "both" }}
+        >
+          <div className="relative h-56 w-56 md:h-72 md:w-72 rounded-full overflow-hidden border-2 border-primary/30 shadow-glow-primary bg-secondary">
+            {!imgError ? (
+              <img
+                src="/profile.jpg"
+                alt="Arushi Nirmal"
+                className="h-full w-full object-cover"
+                onError={() => setImgError(true)}
+              />
+            ) : (
+              <div className="h-full w-full flex flex-col items-center justify-center text-muted-foreground text-xs text-center p-4">
+                <UserCircle className="h-20 w-20 mb-2 opacity-20" />
+                <span>Add profile.jpg<br />to /public folder</span>
+              </div>
+            )}
+          </div>
+        </div>
         </div>
 
         <a

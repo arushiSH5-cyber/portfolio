@@ -22,7 +22,7 @@ export default function Certifications() {
       <div className="container">
         <div className="max-w-3xl mb-12">
           <p className="text-sm font-mono text-primary mb-2">
-            07. Certifications
+            08. Certifications
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">
             Licenses &amp; certifications.

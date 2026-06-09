@@ -70,7 +70,7 @@ export default function Projects() {
       <div className="container">
         <div className="flex items-end justify-between mb-12 max-w-3xl">
           <div>
-            <p className="text-sm font-mono text-primary mb-2">05. Projects</p>
+            <p className="text-sm font-mono text-primary mb-2">06. Projects</p>
             <h2 className="text-3xl md:text-4xl font-bold">
               Things I've built.
             </h2>
