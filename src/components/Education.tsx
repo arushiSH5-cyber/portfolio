@@ -3,10 +3,10 @@ import { GraduationCap } from "lucide-react";
 const EDUCATION = [
   {
     school: "San José State University",
-    degree: "B.S. in Computer Science & Mathematics",
+    degree: "B.S. in Computer Science, Linguistics & Mathematics",
     period: "Undergraduate",
     detail:
-      "Studying computer science and mathematics in the San José Bay Area. Member of the Product Management (PM) Club.",
+      "Triple focus in computer science, linguistics, and mathematics at SJSU in the Bay Area — bridging language, logic, and systems thinking.",
   },
 ];
 

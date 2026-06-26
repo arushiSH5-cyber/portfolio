@@ -1,65 +1,45 @@
 type Role = { role: string; period: string };
 type Org = { org: string; roles: Role[] };
 
-const EXPERIENCE: Org[] = [
-  {
-    org: "Thought GPS",
-    roles: [
-      { role: "AI Product Manager", period: "Jun 2026 – Present" },
-      { role: "Product Management Intern", period: "Jun 2026 – Present" },
-    ],
-  },
-  {
-    org: "CodePath",
-    roles: [{ role: "AI Engineering Fellow", period: "2026" }],
-  },
-  {
-    org: "Summer Intensive Program",
-    roles: [{ role: "Participant", period: "2025" }],
-  },
+const CAMPUS_WORK: Org[] = [
   {
     org: "San José State University",
     roles: [
-      { role: "LLM Research Assistant", period: "May 2026 – Present" },
+      { role: "Student Assistant, Lucas College of Business", period: "Feb 2026 – Present" },
     ],
   },
   {
-    org: "Student Union, Inc. of SJSU",
+    org: "De Anza College",
     roles: [
-      {
-        role: "Operations Tech, Part-Time Supervisor",
-        period: "Oct 2025 – Present",
-      },
+      { role: "Admin Assistant I, Diversity & Equity", period: "Jan 2025 – Jul 2025" },
+      { role: "Admin Assistant II, Admissions & Records", period: "May 2024 – Jul 2025" },
+      { role: "General Assistant, Outreach", period: "Apr 2024 – Jul 2024" },
+      { role: "Instructional Assistant, IC-Journalism", period: "Apr 2024 – Jun 2024" },
+      { role: "Laboratory Assistant, Environmental Studies", period: "Sep 2023 – Mar 2024" },
     ],
   },
   {
-    org: "Hacker Dojo",
-    roles: [{ role: "Product Intern — Braven project", period: "Jun 2025 – Aug 2025" }],
-  },
-  {
-    org: "Adobe Digital Experience Accelerator Series",
-    roles: [{ role: "Participant", period: "2025 – Present" }],
+    org: "De Anza Student Government (DASG)",
+    roles: [{ role: "Program Intern · Part-time", period: "Mar 2024 – Apr 2024" }],
   },
 ];
 
-export default function Experience() {
+export default function CampusWork() {
   return (
-    <section id="experience" className="section-padding">
+    <section id="campus-work" className="section-padding bg-secondary/30">
       <div className="container">
         <div className="max-w-3xl mb-12">
-          <p className="text-sm font-mono text-primary mb-2">03. Experience</p>
-          <h2 className="text-3xl md:text-4xl font-bold">
-            Experience.
-          </h2>
+          <p className="text-sm font-mono text-primary mb-2">04. Campus Work</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Campus work.</h2>
           <p className="mt-4 text-muted-foreground">
-            Product, AI/ML, and research roles across the Bay Area — building at the intersection of fintech and intelligent systems.
+            On-campus roles across SJSU and De Anza College — operations, outreach, and academic support.
           </p>
         </div>
 
         <div className="relative max-w-3xl">
           <div className="absolute left-2 top-2 bottom-2 w-px bg-border md:left-3" />
           <div className="space-y-10">
-            {EXPERIENCE.map((item) => (
+            {CAMPUS_WORK.map((item) => (
               <div key={item.org} className="relative pl-10 md:pl-12">
                 <span className="absolute left-0 top-1.5 h-4 w-4 rounded-full bg-primary shadow-glow-primary md:left-1" />
                 <h3 className="text-lg font-semibold">{item.org}</h3>

@@ -9,6 +9,7 @@ import Leadership from "./components/Leadership";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Certifications from "./components/Certifications";
+import CampusWork from "./components/CampusWork";
 import Volunteering from "./components/Volunteering";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -37,6 +38,7 @@ export default function App() {
         <About />
         <Skills />
         <Experience />
+        <CampusWork />
         <Leadership />
         <section id="github" className="section-padding">
           <div className="container max-w-5xl">

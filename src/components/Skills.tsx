@@ -1,10 +1,10 @@
 import TechStack from "./TechStack";
 
 const SKILL_GROUPS: Record<string, string[]> = {
-  Languages: ["Python", "Java", "C++", "JavaScript", "SQL"],
-  "Computer Science": ["Data Structures", "Algorithms", "OOP", "Git & GitHub", "REST APIs"],
-  Mathematics: ["Linear Algebra", "Calculus", "Discrete Math", "Probability", "Statistics"],
-  "Web & Tools": ["React", "HTML & CSS", "Node.js", "Tailwind CSS", "VS Code"],
+  "AI & Machine Learning": ["Python", "PyTorch", "TensorFlow", "scikit-learn", "LangChain", "RAG", "Prompt Engineering", "NLP"],
+  "Fintech & Data": ["SQL", "Pandas", "PostgreSQL", "REST APIs", "Financial Modeling", "Data Analysis", "Excel / Sheets"],
+  "Product Management": ["Agile / Scrum", "Jira", "Figma", "User Research", "Roadmapping", "PRD Writing", "A/B Testing"],
+  "Engineering": ["Java", "C++", "JavaScript", "TypeScript", "React", "Node.js", "Git & GitHub"],
 };
 
 const MARQUEE_ROW = Object.values(SKILL_GROUPS).flat();
