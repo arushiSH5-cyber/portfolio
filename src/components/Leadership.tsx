@@ -9,6 +9,7 @@ const LEADERSHIP: LeadershipItem[] = [
   { org: "SJSU Science Extravaganza", role: "Outreach Officer", period: "May 2026 – Present" },
   { org: "SJSU Sikh Student Association", role: "Outreach Officer", period: "Aug 2025 – Dec 2025" },
   { org: "Bioinformatics Club", role: "Logistics Head", period: "" },
+  { org: "NETS", role: "General Officer", period: "Jun 2026 – Present" },
 ];
 
 export default function Leadership() {
