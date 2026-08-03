@@ -3,13 +3,14 @@ import { Users } from "lucide-react";
 type LeadershipItem = { org: string; role: string; period: string };
 
 const LEADERSHIP: LeadershipItem[] = [
-  { org: "Product Management Club, SJSU", role: "Outreach Coordinator", period: "Jun 2026 – Present" },
+  { org: "Product Management Association, SJSU", role: "Outreach Coordinator", period: "Jun 2026 – Present" },
   { org: "IISE SJSU Chapter 806", role: "Events Coordinator", period: "May 2026 – Present" },
   { org: "Braven", role: "Outreach Officer", period: "May 2026 – Present" },
   { org: "SJSU Science Extravaganza", role: "Outreach Officer", period: "May 2026 – Present" },
   { org: "SJSU Sikh Student Association", role: "Outreach Officer", period: "Aug 2025 – Dec 2025" },
-  { org: "Bioinformatics Club", role: "Logistics Head", period: "" },
+  { org: "Bioinformatics Club", role: "Treasurer", period: "" },
   { org: "NETS", role: "General Officer", period: "Jun 2026 – Present" },
+  { org: "Girls Who Code", role: "Marketing", period: "" },
 ];
 
 export default function Leadership() {
