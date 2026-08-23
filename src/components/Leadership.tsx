@@ -12,6 +12,7 @@ const LEADERSHIP: LeadershipItem[] = [
   { org: "NETS", role: "General Officer", period: "Jun 2026 – Present" },
   { org: "Girls Who Code", role: "Marketing", period: "Jun 2026 – Present" },
   { org: "Indian Student Organisation", role: "Chief Coordinator, Events", period: "Jun 2026 – Present" },
+  { org: "SKY Club", role: "VP of Student Involvement", period: "Jun 2026 – Present" },
 ];
 
 export default function Leadership() {
